@@ -27,7 +27,7 @@ def solve_board(bo):
 
 
 def validate_board(bo, num, pos):
-    """Validates if the board break the Sudoku rules"""
+    """Validates if the board breaks the Sudoku rules"""
     # Checks the columns
     for i in range(len(bo)):
         if bo[i][pos[1]] == num and pos[0] != i:
