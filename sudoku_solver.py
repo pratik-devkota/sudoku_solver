@@ -1,4 +1,3 @@
-import time
 board1 = [
     [0, 0, 4, 8, 0, 6, 1, 0, 0],
     [0, 0, 0, 5, 0, 9, 0, 0, 0],
@@ -149,11 +148,11 @@ def find_empty(bo):
     return None
 
 
-print("Here's the original board:")
-time.sleep(0.5)
+print("Here's the original board:\n")
+
 print_board(board1)
-print("Solving.....")
-time.sleep(2)
-solve_board(board1)
+print("\n\n")
+
+print("Solved!\n")
 print_board(board1)
-print("Solved!")
+
